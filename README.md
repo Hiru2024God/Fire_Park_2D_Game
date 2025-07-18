@@ -14,7 +14,7 @@ Welcome to my 2D Game built using JavaScript, CSS, and HTML5. This project is a 
 📷 Screenshots
 
  ![Image Alt](https://github.com/Hiru2024God/Fire_Park_2D_Game/blob/d1853d2da6b396d6795d89612edd3a0eac0751d7/Fire%20Park_2D.PNG)
- ![Image Alt](https://github.com/Hiru2024God/Fire_Park_2D_Game/blob/d1853d2da6b396d6795d89612edd3a0eac0751d7/Fire%20Park_2D.PNG)
+ ![Image Alt](https://github.com/Hiru2024God/Fire_Park_2D_Game/blob/29491e8af8f992773c280ef53bb5ec15458a2961/Fire%20Park_2D_End.PNG)
 
 🛠️ Built With :-  HTML5 | CSS | JavaScript
 
