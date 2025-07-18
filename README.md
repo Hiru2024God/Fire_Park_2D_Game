@@ -10,3 +10,7 @@ Welcome to my 2D Game built using JavaScript, CSS, and HTML5. This project is a 
     🔊 Sound effects and music
     💻 Fully responsive and runs in modern browsers [ PC and Laptop Screen Only ]
     🏆 Score tracking
+
+📷 Screenshots
+
+ ![Image Alt](image_url)
