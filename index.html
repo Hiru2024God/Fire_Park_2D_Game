@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>FIRE PARK 2D</title>
+         <link rel="stylesheet" href="Css/style.css"/>
+         <link rel="icon" href="resources/Runner/Run (11).png"/>
+    </head>    
+<body onkeyup="keyCheck(event)" class="body">
+   <div class="background" id="background">
+      <img src="resources/Runner/Run (11).png"class="player" id="player"/>
+      <div class="score" id="score"> 0 </div>
+      
+     <div class="endScreen" id="endScreen">
+         <div> Game Over! </div>
+         <div>Your Score</div>
+         <div id="endScore" class="endScore"> 0 </div>     
+            <button class="btn" onclick="reload();"> Try Again </button>
+      </div>
+   </div>
+   <script src="Js/script.js"></script>
+</body>
+</html> 
