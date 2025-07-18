@@ -1,0 +1,159 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../resources/Background/2D\ Game\ Background.png");
+  background-size: cover;
+  background-repeat: repeat-x;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.body {
+  margin: 0px;
+}
+
+.player {
+  height: 200px;
+  margin-top: 380px;
+  position: absolute;
+}
+
+.block {
+  background-image: url("../resources/Block/Flame.gif");
+  background-size: cover;
+  width: 80px;
+  height: 140px;
+  position: absolute;
+  margin-top: 480px;
+}
+
+.score {
+  position: absolute;
+  font-size: 50px;
+  color: coral;
+  font-weight: bold;
+  font-family: arial;
+  margin-left: 30px;
+}
+
+.endScreen {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  color: darkgreen;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: arial;
+  margin-left: 800px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.endScore {
+  font-size: 70px;
+  color: coral;
+}
+
+.btn {
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 20px;
+  color: orange;
+  font-weight: bold;
+  font-family: arial;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 900px) {
+  .background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../resources/Background/2D\ Game\ Background.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .body {
+    margin: 0px;
+  }
+
+  .player {
+    height: 200px;
+    margin-top: 380px;
+    position: absolute;
+  }
+
+  .block {
+    background-image: url("../resources/Block/Flame.gif");
+    background-size: cover;
+    width: 80px;
+    height: 140px;
+    position: absolute;
+    margin-top: 480px;
+  }
+
+  .score {
+    position: absolute;
+    font-size: 50px;
+    color: coral;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 30px;
+  }
+
+  .endScreen {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    color: darkgreen;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 800px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+  }
+
+  .endScore {
+    font-size: 70px;
+    color: coral;
+  }
+
+  .btn {
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1395px) {
+  .background {
+    width: 1266px;
+    height: 680px;
+    background-image: url("../resources/Background/2D\ Game\ Background.png");
+    background-repeat: repeat-x;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    left: 80px;
+    top: 40px;
+  }
+}
